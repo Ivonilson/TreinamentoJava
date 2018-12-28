@@ -8,7 +8,8 @@ class Classe_Scanner {
 
 		int num1;
 		int num2;
-		int soma;
+		int num3;
+		int resultado;
 
 		System.out.println("DIGITE O N1: ");
 		num1 = entrada.nextInt();
@@ -16,9 +17,12 @@ class Classe_Scanner {
 		System.out.println("DIGITE O N2: ");
 		num2 = entrada.nextInt();
 
-		soma = num1 + num2;
+		System.out.println("DIGITE O N3: ");
+		num3 = entrada.nextInt();
 
-		System.out.println(num1 +" + "+ num2 +" = "+soma);
+		resultado = num3 * (num1 + num2);
+
+		System.out.println(num3 +" * "+"("+num1 +" + "+ num2 +")"+" = "+resultado);
 
 	}
 	
